@@ -11,6 +11,7 @@ html, body {
 }
 
 .container {
+	background-colorcolor: black;
 	margin: 0 auto;
 	padding: 0 2rem;
 }
@@ -61,6 +62,41 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+.html {
+	font-family: "Lucida Sans", sans-serif;
+}
 
+.header {
+	background-color: #333333;
+	color: #01ff00;
+	position: center;
+	padding: 1em;
 
+.about-me {
+	background-color: blue;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	text-color: white;
+}
+
+.instructions-wrapper {
+	display: flex;
+	font-family: "Lucida Sans", serif;
+	border: 5px black solid;
+	border-block-style: solid;
+	flex-wrap: nowrap;
+	padding: 5px;
+}
+
+.instructions-wrapper img {
+
+}
+
+}
+.container {
+	background-colorcolor: black;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
 
